@@ -1,0 +1,22 @@
+.short-answer-container {
+    background-color: #4DBAA0;
+    border-radius: 15px;
+    border-width: 5px;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    gap: 1em;
+}
+
+
+input {
+    border:none;
+    border-bottom: 3px solid #ffffff;
+    padding: 5px 10px;
+    outline: none;
+    background-color: #4DBAA0;
+    font-size: large;
+ }
