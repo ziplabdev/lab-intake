@@ -2,17 +2,87 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 500;
+    /* gap: 1em; */
+    font-size: 20px;
+    line-height: 1.5em;
+    /* margin-top: 1vh; */
+
 }
 
-.update-clickup {
+.update-clickup{
     /* width: 100px; */
     /* height: 30px; */
     border-style: none;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #4DBAA0;
-    font-weight: 500;
-    font-size: .7em;
-    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+    /* margin-top: 10%; */
+}
+
+.update-id{
+    /* width: 100px; */
+    /* height: 30px; */
+    border-style: none;
+    background-color: white;
+    border-radius: 10px;
+    color: #4DBAA0;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+    /* margin-top: 10%; */
+}
+
+.zip-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.admin-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1em; */
+    text-align: center;
+    gap: .5em;
+}
+
+.input-spreadsheet-id {
+    background-color: #b7ffee;
+    color: #002c3c;
+    border-radius: 10px;
+    border-color: transparent;
+
+    height: 30px;
+}
+
+.spreadsheet-id {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.spread-descrip-sub {
+    color: #00c698;
+    font-size: 17px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.title-description {
+    font-size: 15px;
 }

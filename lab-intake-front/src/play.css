@@ -1,7 +1,10 @@
 .play-container {
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-.send-btn{
-    width: 100px;
-    height: 30px;
+
+.carousel {
+    margin-top: 5%;
 }
