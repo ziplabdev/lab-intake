@@ -4,7 +4,7 @@ import './Questions.css'
 import Shortanswer from './ShortAnswer'
 import ZipLogo from './res/logo.svg'
 // import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
-import 'pure-react-carousel/dist/react-carousel.es.css';
+// import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default function Questions(props) {
 
