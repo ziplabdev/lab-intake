@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './ShortAnswer.css'
 export default function Shortanswer(props) {
     
+    
 
     const [answer, setAnswer] = useState('')
 
@@ -12,9 +13,10 @@ export default function Shortanswer(props) {
         // updateObject()        
     }
     const updateObject = (e) => {
+        console.log("e: " + e)
         setAnswer(e)
-        props.questions[props.index].answer = answer
-        console.log('saved response!')
+        props.questions[props.index].answer = e
+        console.log(props.questions[props.index].answer)
     }
 
     return (
@@ -33,7 +35,7 @@ export default function Shortanswer(props) {
                 />
             </label>
             {/* <br/> */}
-            <button type="submit" className="save-btn">save</button>
+            {/* <button type="submit" className="save-btn">save</button> */}
         </form>
         </div>            
     )
