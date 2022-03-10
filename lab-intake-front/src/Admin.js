@@ -10,7 +10,7 @@ export default function Admin(props) {
 
     const updateClickUp = async () => {
         try {
-            axios.post('http://localhost:5001/getUpdates')
+            axios.post('https://zip-lab-intake-api.netlify.app/getUpdates')
             .then(res => {
                 console.log(res)
             })
@@ -22,7 +22,7 @@ export default function Admin(props) {
     const updateSpreadSheetId = async () => {
         try {
             const id = {id: "id"}
-            axios.post('http://localhost:5001/updateSpreadsheetId', id)
+            axios.post('https://zip-lab-intake-api.netlify.app/updateSpreadsheetId', id)
             .then(res => {
                 console.log(res)
                 // setSubmitted(true)
