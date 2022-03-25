@@ -12,7 +12,7 @@ function App() {
           <Route path ="/" element={<Questions/>}/>
           {/* <Route path ="/questions" element={<Questions/>} /> */}
           {/* <Route path ="/play" element={<Play/>} /> */}
-          <Route path ="/admin-portal-20823" element={<Admin/>} />
+          <Route path ="/admin-portal" element={<Admin/>} />
         </Routes>
       </div>
     </ReactRouter>
