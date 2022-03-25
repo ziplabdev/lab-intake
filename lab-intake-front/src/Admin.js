@@ -10,7 +10,8 @@ export default function Admin(props) {
 
     const updateClickUp = async () => {
         try {
-            axios.post('http://zip-lab-intake-api.netlify.app/.netlify/functions/index/getUpdates')
+            axios.post('https://zip-lab-intake-api.netlify.app/.netlify/functions/index/getUpdates')
+            // axios.post('http://localhost:9000/.netlify/functions/index/getUpdates')
             .then(res => {
                 console.log(res)
             })
