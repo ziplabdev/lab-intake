@@ -15,8 +15,8 @@ export default function Questions(props) {
             console.log('submission pressed')
             const submission = questions
             console.log(questions)
-            // axios.post('https://zip-lab-intake-api.netlify.app/.netlify/functions/index/submitform', submission)
-            axios.post('http://localhost:9000/.netlify/functions/index/submitform', submission)
+            axios.post('https://zip-lab-intake-api.netlify.app/.netlify/functions/index/submitform', submission)
+            // axios.post('http://localhost:9000/.netlify/functions/index/submitform', submission)
             .then(res => {
                 console.log(res)
                 setSubmitted(true)
@@ -30,8 +30,8 @@ export default function Questions(props) {
         const fetchData = async () =>{
             // setLoading(true);
             try {
-            //   axios.get('https://zip-lab-intake-api.netlify.app/.netlify/functions/index/formdata')
-            axios.get('http://localhost:9000/.netlify/functions/index/formdata')
+              axios.get('https://zip-lab-intake-api.netlify.app/.netlify/functions/index/formdata')
+            // axios.get('http://localhost:9000/.netlify/functions/index/formdata')
               .then(response => {
                 setQuestions(response.data)
             })
