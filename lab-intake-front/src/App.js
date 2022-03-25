@@ -10,8 +10,6 @@ function App() {
       <div className="App">
         <Routes>
           <Route path ="/" element={<Questions/>}/>
-          {/* <Route path ="/questions" element={<Questions/>} /> */}
-          {/* <Route path ="/play" element={<Play/>} /> */}
           <Route path ="/admin-portal" element={<Admin/>} />
         </Routes>
       </div>
