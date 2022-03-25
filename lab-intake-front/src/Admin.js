@@ -22,7 +22,7 @@ export default function Admin(props) {
     const updateSpreadSheetId = async () => {
         try {
             const id = {id: "id"}
-            axios.post('https://zip-lab-intake-api.netlify.app/updateSpreadsheetId', id)
+            axios.post('https://zip-lab-intake-api.netlify.app/.netlify/functions/index/updateSpreadsheetId', id)
             .then(res => {
                 console.log(res)
                 // setSubmitted(true)
